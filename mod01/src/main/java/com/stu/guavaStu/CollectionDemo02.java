@@ -7,7 +7,7 @@ import com.google.common.collect.Sets;
 import java.util.Map;
 import java.util.Set;
 
-public class MapsDemo {
+public class CollectionDemo02 {
 
     public static void main(String[] args) {
         Set<String> set = Sets.newHashSet("a","b","c","c");

@@ -21,7 +21,7 @@ import java.util.Set;
 //        charactersOf(String str) 将字符串转成字符集合
 //        reverse(List list) 反转list
 //        transform(List fromList, Function<? super F, ? extends T> function) 数据转换
-public class Demo01 {
+public class CollectionDemo01 {
     public static void main(String[] args) {
 
         List<Object> asList1 = Lists.asList("1", 2, new Object[]{"a", "b"});

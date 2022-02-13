@@ -14,11 +14,11 @@ import java.util.concurrent.ConcurrentHashMap;
  * @param <K>
  * @param <V>
  */
-class TestConcurrentHashMapCache<K, V> {
+class TestConcurrentHashMapCache01<K, V> {
     private final ConcurrentHashMap<K, V> cacheMap = new ConcurrentHashMap<K, V>();
 
     public static void main(String[] args) {
-        final TestConcurrentHashMapCache<String, String> TestGuaVA = new TestConcurrentHashMapCache<String, String>();
+        final TestConcurrentHashMapCache01<String, String> TestGuaVA = new TestConcurrentHashMapCache01<String, String>();
 
         Thread t1 = new Thread(new Runnable() {
             @Override
